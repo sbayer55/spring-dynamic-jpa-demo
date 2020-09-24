@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: password
+    username: root
+    url: jdbc:mysql://localhost:32768/demo
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create
