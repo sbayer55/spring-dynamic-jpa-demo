@@ -2,8 +2,8 @@ spring:
   datasource:
     password: password
     username: root
-    url: jdbc:mysql://localhost:32768/demo
-    initialization-mode: always
+    url: jdbc:mysql://localhost:3306/demo
+    initialization-mode: never
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: none

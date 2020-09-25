@@ -1,0 +1,1 @@
+sudo docker run --rm --tty --volume $(pwd)/mysql-init:/docker-entrypoint-initdb.d --name local-mysql --env MYSQL_ROOT_PASSWORD=password --publish 3306:3306 mysql
